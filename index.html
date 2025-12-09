@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riccardo Pogliacomi (reike) | Backend & Robotics Developer</title>
+  <link rel="icon" type="image/svg+xml" href="./src/img/linux-avatar.png">
+  <link rel="stylesheet" href="./src/style.css" />
+  <script defer src="./src/script.js"></script>
+</head>
+<body>
+  <header id="hero">
+    <div class="container">
+      <h1>Riccardo Pogliacomi <span>(reike)</span></h1>
+      <p class="subtitle">Backend & Robotics Developer</p>
+      <p class="intro">
+        Esperto in di sviluppo e messa in produzione di servizi backend, gestione server, e sviluppo firmware per sistemi robotici complessi.
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/r3ike" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/riccardo-pogliacomi-84294b229/" target="_blank">LinkedIn</a>
+        <a href="mailto:rpogliacomi@gmail.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="fade-in">
+      <h2>Chi sono</h2>
+      <p><strong>Backend:</strong>  
+        Sviluppatore specializzato in architetture scalabili, CI/CD pipelines e container orchestration.  
+        Ho esperienza con ambienti complessi basati su <em>Docker</em>, <em>Proxmox</em>, automazioni di deploy e gestione di infrastrutture distribuite su sistemi Linux.  
+        Mi occupo inoltre di sviluppo di backend in nodejs per applicazioni web moderne.
+      </p>
+
+      <p><strong>Robotica:</strong>  
+        Sviluppatore per robotica con focus su controllo, simulazioni e firmware real-time.  
+        Sviluppo algoritmi di stima e controllo per droni (quadcopter) utilizzando <em>Kalman Filter</em>, <em>LQR</em>, <em>MPC</em> e modelli dinamici.  
+        Esperienza in firmware embedded (C/C++), sistemi operativi real-time (RTOS) e Matlab o Python per simulazioni fisiche ad alta fedeltà.
+      </p>
+    </section>
+
+    <section id="backend" class="fade-in">
+      <h2>Progetti Web</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>WebLab ITIS Parma</h3>
+          <p>WebLab è un sistema di hosting dedicato a studenti e docenti, sviluppato per l’Istituto Tecnico “Leonardo Da Vinci” di Parma.
+            Il sistema originario presentava diverse vulnerabilità dovute a scelte architetturali non più adeguate ai requisiti moderni.
+            Con la nuova versione, queste problematiche sono state risolte grazie all’introduzione di un’esecuzione PHP in sandbox, che garantisce maggiore sicurezza e isolamento.
+            Inoltre, l’utilizzo di FTP è stato completamente eliminato: ora il caricamento dei file avviene tramite una dashboard moderna e intuitiva, con integrazione GitHub e editor di testo integrato, offrendo un’esperienza più sicura e user-friendly.
+          </p>
+          <span class="tech">Node.js • Docker • Linux • JWT • Nginx • LDAP</span>
+        </div>
+        <div class="project-card">
+          <h3>Firewall Manager ITIS Parma</h3>
+          <p>L’ITIS di Parma necessitava di un sistema che permettesse ai docenti di gestire, in modo semplice e intuitivo tramite un’applicazione web, il blocco del traffico di rete nei laboratori durante le verifiche scritte.
+            Il sistema che ho sviluppato consente l’accesso tramite autenticazione LDAP a una dashboard dedicata, dalla quale il docente può abilitare o disabilitare il traffico di rete di ciascun laboratorio con un solo clic.
+          </p>
+          <span class="tech">Node.js • Docker • Linux • JWT • Nginx • LDAP • Watchguard Firewall</span>
+        </div>
+        <div class="project-card">
+          <h3>Ecotote</h3>
+          <p>Ecotote è un applicazione sviluppata per una competizione di imprenditoria, tale applicazione si impegna a generare liste della
+            spesa ottimizzate per ridurre lo spreco alimentare.
+          </p>
+          <span class="tech">Node.js • Docker • MySQL • AI</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="robotics" class="fade-in">
+      <h2>Progetti di Robotica</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Quadcopter Firmware</h3>
+          <p>Firmware per quadricotteri con sistemi di controllo avanzati, filtri di stima (Kalman) per stabilità e precisione ed inoltre generazione di traittorie ottimali attraverso ottimizzazione convessa.</p>
+          <span class="tech">C++ • FreeRTOS</span>
+        </div>
+        <div class="project-card">
+          <h3>Simulatore di Dinamica Robotica</h3>
+          <p>Simulatore fisico in tempo reale per testare algoritmi di controllo su robot multiasse.</p>
+          <span class="tech">Python • Pandas • Matplot lib</span>
+        </div>
+        <div class="project-card">
+          <h3>INS for UAV</h3>
+          <p>Inertial Navigation System per veicoli autonomi attraverso IMU, GPS, barometer, lidar. L'INS si basa su un EKF error-state con delayed state, coning e sculling compensation.</p>
+          <span class="tech">Python • Numpy • Pandas • Matplot lib</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+      <h2>Competenze</h2>
+      <div class="skills-grid">
+        <span>CI/CD</span>
+        <span>Proxmox</span>
+        <span>Docker</span>
+        <span>Linux Server Management</span>
+        <span>Node.js</span>
+        <span>RTOS</span>
+        <span>MPC</span>
+        <span>LQR</span>
+        <span>Convex optimization</span>
+        <span>Kalman Filter</span>
+        <span>Simulazioni</span>
+      </div>
+    </section>
+
+    <section id="languages" class="fade-in">
+      <h2>Linguaggi</h2>
+      <div class="skills-grid">
+        <span>C</span>
+        <span>C++</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>NodeJS</span>
+        <span>SQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Matlab</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Riccardo Pogliacomi • All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
