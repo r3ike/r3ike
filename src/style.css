@@ -134,3 +134,82 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+.see-all {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
+
+
+.papers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.paper-card {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 8px;
+  transition: var(--transition);
+  font-size: 0.9rem;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.paper-card p {
+  flex-grow: 1;
+}
+
+.paper-card:hover {
+  transform: translateY(-4px);
+}
+
+.paper-card h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+
+.paper-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paper-meta .tech {
+  font-size: 0.75rem;
+}
+
+.paper-meta a {
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.paper-meta a:hover {
+  text-decoration: underline;
+}
+
+.back-home {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.back-home:hover {
+  color: var(--accent-color);
+}
+
