@@ -1,5 +1,5 @@
 # About me 👋
-I'm Riccardo, a backend developer with skills in databases, server manage and complex system development, i am also a robotics developer with skills in real time firmware development for quadcopters, simulations and control.
+I'm Riccardo, a backend developer with skills in databases, server management and complex system development, i am also a robotics developer with skills in real time firmware development for quadcopters, simulations and control.
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rpogliacomi@gmail.com) 
 
