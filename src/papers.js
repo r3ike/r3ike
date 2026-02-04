@@ -15,7 +15,7 @@ fetch('./src/papers/papers.json')
     
                 <div class="paper-meta">
                   <span class="tech">${p.tags.join(' • ')}</span>
-                  <a href="./assets/papers/${p.file}" download>PDF</a>
+                  <a href="./papers/${p.file}" download>PDF</a>
                 </div>
               </div>
             `;
@@ -36,7 +36,7 @@ fetch('./src/papers/papers.json')
     
                 <div class="paper-meta">
                   <span class="tech">${p.tags.join(' • ')}</span>
-                  <a href="./assets/papers/${p.file}" download>PDF</a>
+                  <a href="./papers/${p.file}" download>PDF</a>
                 </div>
               </div>
             `;
